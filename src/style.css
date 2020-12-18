@@ -1,6 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
-  background-color: aqua;
   background-image: url
     "https://i.insider.com/5cd9cf51021b4c2cbb3054eb?width=1136&format=jpeg";
+}
+
+.card {
+  display: inline-block;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 7px;
+  position: relative;
+}
+.top-suit {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 85px;
+}
+.bottom-suit {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: 85px;
 }
