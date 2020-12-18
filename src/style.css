@@ -1,1 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: aqua;
+  background-image: url
+    "https://i.insider.com/5cd9cf51021b4c2cbb3054eb?width=1136&format=jpeg";
+}
