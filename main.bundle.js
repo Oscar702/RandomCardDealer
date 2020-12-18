@@ -6447,7 +6447,7 @@ var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../node_module
 exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
 // Module
-exports.push([module.i, "body {\n  background-image: url\n    \"https://i.insider.com/5cd9cf51021b4c2cbb3054eb?width=1136&format=jpeg\";\n}\n\n.card {\n  display: inline-block;\n  margin: auto;\n  height: 400px;\n  width: 250px;\n  padding: 20px;\n  border: 1px solid;\n  border-radius: 7px;\n  position: relative;\n}\n.top-suit {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  font-size: 85px;\n}\n.bottom-suit {\n  position: absolute;\n  bottom: 5px;\n  right: 5px;\n  font-size: 85px;\n}\n", ""]);
+exports.push([module.i, "body {\n  background-image: url\n    \"https://i.insider.com/5cd9cf51021b4c2cbb3054eb?width=1136&format=jpeg\";\n}\n\n.card {\n  display: inline-block;\n  margin: auto;\n  height: 380px;\n  width: 250px;\n  padding: 10px;\n  border: 1px solid;\n  border-radius: 7px;\n  position: relative;\n}\n\n:before {\n  position: absolute;\n  top: 0px;\n  left: 5px;\n  font-size: 85px;\n}\n:after {\n  position: absolute;\n  bottom: 5px;\n  right: 5px;\n  font-size: 85px;\n}\n\n\n\n\n.number {\n  font-size: 90px;\n  line-height: 300px;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -28874,32 +28874,6 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./src/assets/img/4geeks.ico":
-/*!***********************************!*\
-  !*** ./src/assets/img/4geeks.ico ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "4geeks.ico");
-
-/***/ }),
-
-/***/ "./src/assets/img/rigo-baby.jpg":
-/*!**************************************!*\
-  !*** ./src/assets/img/rigo-baby.jpg ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "rigo-baby.jpg");
-
-/***/ }),
-
 /***/ "./src/main.js":
 /*!*********************!*\
   !*** ./src/main.js ***!
@@ -28913,11 +28887,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_img_rigo_baby_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/img/rigo-baby.jpg */ "./src/assets/img/rigo-baby.jpg");
-/* harmony import */ var _assets_img_4geeks_ico__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/img/4geeks.ico */ "./src/assets/img/4geeks.ico");
 /* eslint-disable */
-
-
 
 
 
@@ -28965,8 +28935,8 @@ module.exports = exported;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /workspace/vanillajs-hello/node_modules/error-overlay-webpack-plugin/lib/entry-basic.js */"./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js");
-__webpack_require__(/*! /workspace/vanillajs-hello/node_modules/error-overlay-webpack-plugin/lib/entry-devserver.js */"./node_modules/error-overlay-webpack-plugin/lib/entry-devserver.js");
+__webpack_require__(/*! /workspace/RandomCardDealer/node_modules/error-overlay-webpack-plugin/lib/entry-basic.js */"./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js");
+__webpack_require__(/*! /workspace/RandomCardDealer/node_modules/error-overlay-webpack-plugin/lib/entry-devserver.js */"./node_modules/error-overlay-webpack-plugin/lib/entry-devserver.js");
 module.exports = __webpack_require__(/*! ./src/main.js */"./src/main.js");
 
 
