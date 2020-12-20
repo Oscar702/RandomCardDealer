@@ -6447,7 +6447,7 @@ var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../node_module
 exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
 // Module
-exports.push([module.i, "body {\n  background-image: url\n    \"https://i.insider.com/5cd9cf51021b4c2cbb3054eb?width=1136&format=jpeg\";\n}\n\n.card {\n  display: inline-block;\n  margin: auto;\n  height: 400px;\n  width: 250px;\n  padding: 20px;\n  border: 1px solid;\n  border-radius: 7px;\n  position: relative;\n}\n.top-suit {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  font-size: 85px;\n}\n.bottom-suit {\n  position: absolute;\n  bottom: 5px;\n  right: 5px;\n  font-size: 85px;\n}\n\n.number {\n  position: absolute;\n  margin-top: 100px;\n  margin-left: 70px;\n  font-size: 100px;\n  font-weight: bold;\n}\n", ""]);
+exports.push([module.i, "body {\n  background-image: url\n    \"https://i.insider.com/5cd9cf51021b4c2cbb3054eb?width=1136&format=jpeg\";\n}\n\n.card {\n  display: inline-block;\n  margin-left: 130px;\n  height: 400px;\n  width: 250px;\n  padding: 50px;\n  border: 1px solid;\n  border-radius: 7px;\n  position: relative;\n}\n.top-suit {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  font-size: 85px;\n}\n.bottom-suit {\n  position: absolute;\n  bottom: 5px;\n  right: 5px;\n  font-size: 85px;\n}\n\n.number {\n  position: absolute;\n  margin-top: 100px;\n  margin-left: 70px;\n  font-size: 100px;\n  font-weight: bold;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
