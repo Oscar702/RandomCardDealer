@@ -7,7 +7,7 @@ body {
 .card {
   display: inline-block;
   margin-left: 130px;
-  height: 400px;
+  height: 357px;
   width: 250px;
   padding: 50px;
   border: 1px solid;
@@ -25,12 +25,14 @@ body {
   bottom: 5px;
   right: 5px;
   font-size: 85px;
+  transform: rotate(180deg);
 }
 
-.number {
+.number{
+   
   position: absolute;
-  margin-top: 100px;
-  margin-left: 70px;
+  margin-top: 50px;
+  margin-left: 40px;
   font-size: 100px;
   font-weight: bold;
 }
