@@ -6,10 +6,10 @@ body {
 
 .card {
   display: inline-block;
-  margin: auto;
+  margin-left: 130px;
   height: 400px;
   width: 250px;
-  padding: 20px;
+  padding: 50px;
   border: 1px solid;
   border-radius: 7px;
   position: relative;
@@ -25,4 +25,12 @@ body {
   bottom: 5px;
   right: 5px;
   font-size: 85px;
+}
+
+.number {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 70px;
+  font-size: 100px;
+  font-weight: bold;
 }
