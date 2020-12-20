@@ -1,4 +1,3 @@
-/* eslint-disable */
 import "bootstrap";
 import "./style.css";
 
@@ -12,15 +11,15 @@ window.onload = () => {
   function randomNumbers() {
     return numbers[Math.floor(Math.random() * numbers.length)];
   }
-  var design = randomSuits();
+  var symbol = randomSuits();
 
-  if (design == "&hearts;" || design == "&diams;") {
+  if (symbol == "&hearts;" || symbol == "&diams;") {
     document.querySelector(".top-suit").style.color = "red";
     document.querySelector(".bottom-suit").style.color = "red";
     document.querySelector(".number").style.color = "red";
   }
 
-  document.querySelector(".top-suit").innerHTML = design;
-  document.querySelector(".bottom-suit").innerHTML = design;
+  document.querySelector(".top-suit").innerHTML = symbol;
+  document.querySelector(".bottom-suit").innerHTML = symbol;
   document.querySelector(".number").innerHTML = randomNumbers();
 };
